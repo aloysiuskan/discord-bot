@@ -9,4 +9,9 @@ bot = discord.Bot(intents=discord.Intents.all())
 async def on_ready():
     print(f"{bot.user} is ready and online!")
 
+cogs_list = ["greetings"]
+
+for cog in cogs_list:
+    bot.load_extension(f"cogs.{cog}")
+
 bot.run(TOKEN)

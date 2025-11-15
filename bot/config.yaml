@@ -1,0 +1,5 @@
+greetings:
+  welcome_title: "Welcome to {member.guild.name}"
+  welcome_message: "{member.mention}, I would like to represent everyone in this server to welcome you to be part of us."
+  goodbye_title: "We will miss you"
+  goodbye_message: "{member.mention}, Feel free to come back at anytime"
